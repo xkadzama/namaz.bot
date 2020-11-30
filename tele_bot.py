@@ -26,7 +26,7 @@ def send_message(message):
     sub_time = types.KeyboardButton('/time')
     markup_reply.add(sub_time)
     abot.send_message(message.chat.id, ac, reply_markup=markup_reply)
-# .replace('{', '').replace('}', '').replace("'", '').upper()
+
 
 
 if __name__ == "__main__":
